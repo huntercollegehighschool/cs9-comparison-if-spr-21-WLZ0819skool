@@ -24,3 +24,19 @@ opposite
 '''
 
 #start writing your code below
+def findposnegzero():
+  num = int(input("enter a number: "))
+  if num == 0:
+    return 'zero'
+  elif num < 0:
+    return 'negative'
+  else:
+    return 'positive'
+result1 = findposnegzero()
+result2 = findposnegzero()
+if (result1 == 'zero') or (result2 == 'zero'):
+  print('zero')
+elif result1 == result2:
+  print(result1)
+else:
+  print('opposite')

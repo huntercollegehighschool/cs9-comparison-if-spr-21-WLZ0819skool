@@ -20,3 +20,14 @@ not divisible by 3
 '''
 
 #write your code below
+numbersussyverysus = int(input("Enter a sussy number: "))
+if numbersussyverysus == 0:
+  print('zero')
+elif numbersussyverysus < 0:
+  print('negative')
+else:
+  print('positive, now you have to go quarantine')
+if numbersussyverysus%3 == 0:
+  print('divisible by 3')
+else:
+  print('not divisible by 3')
